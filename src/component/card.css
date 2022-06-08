@@ -1,0 +1,26 @@
+.container {
+    padding: auto;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px rgba(241, 235, 235, 0.5); 
+    border-radius: 10px;
+}
+
+.redCard {
+    background-image: url(./images/cardimg1.JPG);
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.blueCard {
+    background-image: url(./images/cardimg.JPG);
+    font-size: 20px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+.nestedCard {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(241, 235, 235, 0.5);
+}

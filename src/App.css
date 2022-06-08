@@ -1,0 +1,378 @@
+/* For All App */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+ /* For All Buttons of orangered colors in project */
+.btn-all{
+  background-color: orangered;
+  color: white;
+  border: none;
+  height: 35px;
+  width: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  position: sticky;
+}
+/* Navbar css work */
+.navbar{
+  background-color: transparent;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+} 
+.logo{
+  height: 50px;
+  width: 80px;
+  border-radius: 50px;
+  margin: -8px 120px 0px -100px ;
+}
+.comfort_wear{
+  display: flex;
+  padding: 10px 3px 0px 40px;
+  width: 30%;
+}
+.wear{
+  color: orangered;
+}
+.nav-list{
+  display: flex;
+  margin: 5px;
+}
+.nav-list li{
+  list-style: none;
+  padding: 25px 20px;
+
+}
+.nav-list li a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+.nav-list li a:hover{
+  color: grey;
+}
+.nav-btn{
+    padding: 8px 8px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Body work start */
+/* div1 css */
+.body-div1{
+  display: flex;
+}
+.div1-sec-Right{
+  height: 30vh;
+  margin: 20px;
+  padding: 70px 50px;
+}
+.div1secRight-inner-sec{
+  display: flex;
+}
+.btnbuy{
+  margin: -5px 10px 0px 0px;
+  padding: auto;
+}
+.div1-sec-Left{
+  margin: 20px;
+  padding: 10px 50px;
+}
+.shoe1{
+  height: 45vh;
+  width: 70vh;
+}
+/* After closing 1st dive hr than heading of reviwes css */
+.review-heading{
+  margin: 50px;
+}
+/* div2 css */
+.body-div2{
+  display: flex;
+}
+.div2-sec-reviews{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 15vh;
+  width: 45vh;
+  margin: auto;
+  border-radius: 5px;
+}
+.review{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 40px;
+  margin: 10px;
+}
+.review-para{
+  font-size: 12px;
+}
+.see-more{
+  margin: 50px 0px 0px 190vh;
+}
+
+/* NEw Arricvals works start */
+
+.heading{
+  margin: 50px;
+}
+/* div2 css */
+.body-div3{
+  display: flex;
+}
+.div3-sec-items{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 35vh;
+  margin: auto;
+  border-radius: 5px;
+}
+.item-text{
+  margin: 8px;
+}
+.price{
+  margin: 15px;
+}
+.Ar-items-img{
+  height: 20vh;
+  width: 25vh;
+}
+.browse-all{
+  margin: 50px 0px 0px 194vh;
+}
+.Ar-item-btnbuy{
+  height: 30px;
+  width: 80px;
+  font-size: 10px;
+}
+/* Selling Produc Works Start */
+.body-div4{
+  display: flex;
+  margin: auto;
+
+}
+.div4-mainsecleft{
+  height: 62vh;
+  margin: 50px 0px 0px 0px;
+}
+.div4-secleft{
+  display: flex;
+  margin: 0px 0px 0px 40px;
+
+}
+.body-div4-leftsec{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 20vh;
+  width: 50vh;
+  margin: 20px 20px 20px 20px;
+  border-radius: 5px;
+}
+.Sell-Prod-img{
+  height: 12vh;
+  width: 12vh;
+  margin: auto;
+}
+.Sell-Item-type{
+  font-size: 12px;
+}
+.btn-SellProd{
+  height: 10px;
+  width: 60px;
+  font-size: 10px;
+  height: 25px;
+  margin: 20px 15px -60px 30px;
+}
+.btn-SellPro-browse{
+  margin: 30px 0px 0px 103vh;
+}
+.M-S-P-img{
+  margin: 30px 0px 0px 25vh;
+  height: 70vh;
+  width: 60vh;
+  border-radius: 5px;
+}
+.checked {
+  color: orange;
+}
+.body-div5{
+  display: flex;
+  margin: 25vh 0px 0px 30px;
+}
+.div5-sectext{
+  margin: 80px 0px 0px 100px;
+  height: 40vh;
+  width: 90vh;
+}
+.div5-img{
+  margin: 0px 0px 0px 50px;
+  height: 70vh;
+  width: 60vh;
+  
+}
+.div5part2{
+  flex-direction: row-reverse;
+  margin: 20vh 50vh 0px 0px;
+}
+.container {
+  position: sticky;
+  /* background-color: green; */
+  margin: 180px 0px 0px 80px;
+  width: 50vh;
+  height: 26.25vh;
+    /* opacity: 1;
+    filter: blur(2px) */
+}
+.btn-new{
+  position: absolute;
+  top: -100%;
+  left: 0%;
+  font-size: 10px;
+  height: 70px;
+  width: 70px;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 50px;
+  margin: -2vh 0px 0px 8vh;
+
+}
+.Blog-img{
+  margin: -180px 0px 0px 50px ;
+  width: 60vh;
+  height: 70vh;
+}
+.container .blog-text {
+  font-size: 12px;
+  position: absolute;
+  color: white;
+  top: 90%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.container .blog-text-2 {
+  font-size: 10px;
+  position: absolute;
+  color: white;
+  top: 110%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.container .btn {
+  position: absolute;
+  top: 135%;
+  left: 76%;
+  font-size: 10px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 5px;
+}
+/* Contact Form */
+.contact{
+  background-color: #f6f5f4; 
+  height: 90vh;
+}
+.text-center{
+  text-align: center;
+  justify-content: center;
+}
+.form{
+  max-width: 800px;
+  margin: 25px auto;
+}
+.form input{
+  margin: 14px 0px;
+  padding: 5px 3px;
+  width: 100%;
+  font-size: 19px;
+  border: 2px solid black;
+  border-radius: 6px;
+}
+.text-footer{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+  background-color: rgb(28, 24, 24);
+  color: white;
+  height: 60px;
+}
+
+/* Footer Css WOrk Starts */
+
+.footer{
+  background-color: black;
+  color: white;
+  height: 35vh;
+  margin: 20vh 0px 0px 0px;
+}
+.contactus{
+  margin: 0px 0px 0px 100vh;
+}
+.icons{
+  margin: 10px 0px 0px 10px;
+  color: white;
+}
+.phone-sec{
+  display: flex;
+  margin: 5px 0px 0px 97vh ;
+}
+.num{
+  margin: 10px;
+}
+.mail-sec{
+  display: flex;
+  margin: -5px 0px 0px 97vh ;
+}
+.mail {
+  margin: 10px;
+}
+.map-sec{
+  display: flex;
+  margin: -5px 0px 0px 97vh ;
+}
+.mapmarker{
+  margin: 10px;
+}
+.crds{
+  margin: -120px 0px 0px 0px; 
+  display: flex;
+}
+.crdtxt{
+  margin: 0px 0px 20px 0px;
+}
+.todolable{
+  font-size: 40px;
+}
+#todo{
+  height: 30px;
+  width: 40vh;
+  border-radius: 5px;
+  border: solid black;
+  border-width: 0.06cm;
+}
+.todosub{
+  margin: 15px 0px 0px -5px;
+}
